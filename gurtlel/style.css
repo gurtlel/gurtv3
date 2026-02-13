@@ -1,0 +1,46 @@
+body {
+  background-color: #f4f7fb;
+}
+
+.custom-navbar {
+  background-color: #4b0082;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link {
+  color: white;
+  font-weight: 500;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffd700;
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: #ffffff;
+}
+
+.dog-card {
+  background-color: white;
+  border: 3px solid #4b0082;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dog-card:hover {
+  transform: scale(1.05);
+}
+
+.dog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
